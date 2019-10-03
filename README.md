@@ -1,10 +1,17 @@
 # Irma Moves
-Implement an interpreter foralgebraic notation for recording and describing the hurricane Irma moves.
+Implementing an interpreter foralgebraic notation for recording and describing the hurricane Irma moves.
+This program was written in C and contains a .c and .h file with multiple test cases to see the movement throughout the 2D array, or in this case, the table.
+
+## IrmaMoves.c
+This file is the main file that contains all the logic for the movement of Irma. Below is a breakdown of all the functions and how they work.
 
 ## IrmaMoves.h
 Included with this project is a customer header file that includes the struct definitions and functional prototypes for the functions that are implemented.
 This file was intended to be a bridge for the main source files.
 There are three structs in this file.
+
+## Testcases
+There is a folder labeled "testcases" that can be used to see how the program executes with different cases.
 
 ## Each function implemented
 ### createMapBoard(void);
@@ -35,3 +42,10 @@ To compile multiple source files at the command lind:
 - gcc IrmaMoves.c testcase01.c
 And then run the file by:
 - ./IrmaMoves.exe
+Running the program could potentially dump a lot of output to the screen. If you want to redirect your output to a text file in Linux just run the program using the following command, which will create a file called whatever.txt that contains the output from your program
+- ./IrmaMoves.exe > whatever.txt
+To run with a test case:
+- gcc IrmaMoves.c testcase01.c
+
+I personally used Code::Blocks to write this program.
+- http://www.codeblocks.org/
