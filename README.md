@@ -5,7 +5,7 @@ This program was written in C and contains a .c and .h file with multiple test c
 ## To read about hurricane Irma
 https://en.wikipedia.org/wiki/Hurricane_Irma
 
-Hurricane Irma directly affected my city at the time I was studying so this project was fun to do :)
+Hurricane Irma directly affected my city at the time I was studying at so this project was fun to do :)
 
 ## IrmaMoves.c
 This file is the main file that contains all the logic for the movement of Irma. Below is a breakdown of all the functions and how they work.
