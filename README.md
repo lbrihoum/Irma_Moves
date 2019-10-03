@@ -38,14 +38,17 @@ It will set the from_location, current_location, to_location, irma.windspeed, an
 There is no return value.
 
 ## Compiling
-To compile multiple source files at the command lind:
-- gcc IrmaMoves.c testcase01.c
-And then run the file by:
+To compile a file at the command line:
+- gcc IrmaMoves.c
+
+To run the file:
 - ./IrmaMoves.exe
-Running the program could potentially dump a lot of output to the screen. If you want to redirect your output to a text file in Linux just run the program using the following command, which will create a file called whatever.txt that contains the output from your program
-- ./IrmaMoves.exe > whatever.txt
+
 To run with a test case:
 - gcc IrmaMoves.c testcase01.c
+
+Running the program could potentially dump a lot of output to the screen. If you want to redirect your output to a text file in Linux just run the program using the following command, which will create a file called whatever.txt that contains the output from your program
+- ./IrmaMoves.exe > whatever.txt
 
 I personally used Code::Blocks to write this program.
 - http://www.codeblocks.org/
