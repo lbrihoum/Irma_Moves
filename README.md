@@ -23,3 +23,15 @@ The return value is also null.
 ### predictIrmaChange(char str, Move irmaMove);
 The best function!
 This function starts by printing the map board with Irma in its starting position. This function calls createMapBoard() function to create a 2D char array to represent the map board, and then calls the printMapBoard() function to print it to the screen.
+The return value is the pointer to the allocated 2D array. Or null if any call to malloc() fails.
+
+### parseNotationString(char str, Move irmaMove);
+This function recieves an algebraic notation string (str) and one (Move) struct pointer. The function will parse str and extract information about Irma moves encoded there, and populate all corresponding fields in the struct pointed to by irmaMove.
+It will set the from_location, current_location, to_location, irma.windspeed, and irma.windgusts feilds in the struct. With this information, it will denote which column and/or row the Irma's move is coming from and determine where Irma will end.
+There is no return value.
+
+## Compiling
+To compile multiple source files at the command lind:
+- gcc IrmaMoves.c testcase01.c
+And then run the file by:
+- ./IrmaMoves.exe
