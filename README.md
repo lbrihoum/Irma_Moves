@@ -4,6 +4,7 @@ This program was written in C and contains a .c and .h file with multiple test c
 
 ## To read about hurricane Irma
 https://en.wikipedia.org/wiki/Hurricane_Irma
+
 Hurricane Irma directly affected my city at the time I was studying so this project was fun to do :)
 
 ## IrmaMoves.c
