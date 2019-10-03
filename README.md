@@ -1,6 +1,10 @@
-# Irma Moves
+# Hurricane Irma Moves
 Implementing an interpreter foralgebraic notation for recording and describing the hurricane Irma moves.
 This program was written in C and contains a .c and .h file with multiple test cases to see the movement throughout the 2D array, or in this case, the table.
+
+## To read about hurricane Irma
+https://en.wikipedia.org/wiki/Hurricane_Irma
+Hurricane Irma directly affected my city at the time I was studying so this project was fun to do :)
 
 ## IrmaMoves.c
 This file is the main file that contains all the logic for the movement of Irma. Below is a breakdown of all the functions and how they work.
